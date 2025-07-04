@@ -1,5 +1,4 @@
-# Jar Reader Assessment
-
+# Jar Reader Application
 ## Overview
 The Jar Reader Assessment project is a Java application designed to scan JAR files for class entries and process them. It retrieves annotations from the classes found within the JAR files.
 
