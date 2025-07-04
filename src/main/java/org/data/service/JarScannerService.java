@@ -55,8 +55,9 @@ public class JarScannerService {
 
             if (annotations.length > 0) {
                 System.out.println("\nAnnotations found in class: " + myClass.getName());
+                int counter = 1;
                 for (Annotation annotation : annotations) {
-                    System.out.println("  -> " + annotation.toString());
+                    System.out.println("  " + counter++ + ": " + annotation.toString());
                 }
             }
 
@@ -66,5 +67,4 @@ public class JarScannerService {
             System.err.println("An error occurred while inspecting class " + className + ": " + e.getMessage());
         }
     }
-
 }
