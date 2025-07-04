@@ -3,7 +3,7 @@
 The Jar Reader Assessment project is a Java application designed to scan JAR files for class entries and process them. It retrieves annotations from the classes found within the JAR files.
 
 ## Requirements
-- Java Development Kit (JDK) 11 or higher (not higher than 21)
+- Java Development Kit (JDK) 14 or higher (not higher than 21) (14 is needed because of usage of records).
 - Maven 3.6 or higher
 
 ## Building the Project
